@@ -32,7 +32,7 @@ body {
   display: block;
   font-size: 20px;
   font-weight: 500;
-  color: #2e2c2c;
+  color: #729b13;
 }
 
 .header {
@@ -77,13 +77,13 @@ p {
   text-decoration: none;
   padding: 10px 20px;
   font-weight: 800;
-  background-image: linear-gradient(40deg, #fc8f49, #ff1e1e);
+  background-image: linear-gradient(40deg, #9ac084, #a3e015);
   border-radius: 30px;
   color: white;
 }
 
 .about-me-area {
-  background-image: url(images/about-me-bg.png);
+  background-image: url(images/about-me-bg-green.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -92,6 +92,7 @@ p {
   width: 50%;
   float: left;
   margin-left: 15%;
+  height: 106%;
 }
 
 .about-me-area h2 {
@@ -138,6 +139,7 @@ p {
   font-size: 25px;
   margin: 0;
   padding-top: 20px;
+  color: #729b13;
 }
 
 .one-third-width p {
@@ -160,6 +162,7 @@ p {
   margin: 0%;
   font-size: 50px;
   font-weight: 900;
+  color: #729b13;
 }
 
 .stat-card h4 {
