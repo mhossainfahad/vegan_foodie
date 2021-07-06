@@ -1,0 +1,222 @@
+body {
+  margin: 0%;
+  font-family: "Catamaran", sans-serif;
+}
+
+.flexible-container {
+  display: flex;
+  width: 80%;
+  padding: 2% 0%;
+  margin: 0% auto;
+}
+
+.half-width {
+  width: 50%;
+  float: left;
+}
+
+.top-menu ul {
+  margin: 0%;
+  padding-top: 3%;
+  text-align: right;
+}
+
+.top-menu ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0% 3%;
+}
+
+.top-menu ul li a {
+  text-decoration: none;
+  display: block;
+  font-size: 20px;
+  font-weight: 500;
+  color: #2e2c2c;
+}
+
+.header {
+  background-color: #f8f8ff;
+}
+
+.header div h1 {
+  margin: 0%;
+  font-size: 40px;
+  font-weight: 800;
+  color: #2e2c2c;
+}
+
+.color-highlight-green {
+  color: #94b447;
+}
+
+.color-highlight-orange {
+  color: #fba24f;
+}
+
+.intro-area div h1 {
+  margin: 0%;
+  padding-top: 15%;
+  font-size: 50px;
+  font-weight: 600;
+  color: #2e2c2c;
+}
+
+.intro-area div img {
+  width: 80%;
+  float: right;
+}
+
+p {
+  font-size: 20px;
+  margin-bottom: 8%;
+  color: #2e2c2c;
+}
+
+.link-button {
+  text-decoration: none;
+  padding: 10px 20px;
+  font-weight: 800;
+  background-image: linear-gradient(40deg, #fc8f49, #ff1e1e);
+  border-radius: 30px;
+  color: white;
+}
+
+.about-me-area {
+  background-image: url(images/about-me-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-me-area div img {
+  width: 50%;
+  float: left;
+  margin-left: 15%;
+}
+
+.about-me-area h2 {
+  font-size: 40px;
+  padding-top: 15%;
+  margin: 0%;
+  color: #2e2c2c;
+}
+
+.recipe-area {
+  color: #2e2c2c;
+}
+
+.recipe-area h2 {
+  font-size: 40px;
+  padding-top: 4%;
+  margin: 0%;
+  text-align: center;
+}
+
+.centered-paragraph {
+  text-align: center;
+  margin-bottom: 1%;
+}
+
+.one-third-width {
+  width: 33.3%;
+  float: left;
+  padding: 15px;
+}
+
+.recipe-card {
+  border-radius: 15px;
+  box-shadow: 10px 15px 30px grey;
+  margin: 0 20px;
+}
+
+.one-third-width img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.one-third-width h3 {
+  font-size: 25px;
+  margin: 0;
+  padding-top: 20px;
+}
+
+.one-third-width p {
+  font-size: 18px;
+  margin: 0;
+  padding: 15px 0;
+  text-align: justify;
+  line-height: 25px;
+}
+
+.stat-card {
+  width: 78%;
+  border-radius: 10px;
+  box-shadow: 10px 15px 30px grey;
+  text-align: center;
+  color: #2e2c2c;
+}
+
+.stat-card h1 {
+  margin: 0%;
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.stat-card h4 {
+  margin: 0%;
+}
+
+.stat-area {
+  background-color: #f8f8ff;
+  padding: 5% 0;
+}
+
+.inquiry-area {
+  background-image: url(images/inquiry-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5% 0 5% 0;
+}
+
+.inquire-card {
+  width: 100%;
+  text-align: center;
+}
+
+.inquiry-area h1 {
+  margin: 0%;
+  font-size: 40px;
+  font-weight: 800;
+  color: white;
+}
+
+.inquiry-area h2 {
+  margin: 0%;
+  font-size: 80px;
+  font-weight: 800;
+  color: white;
+}
+
+footer {
+  background-color: rgb(32, 30, 30);
+  color: #f8f8ff;
+  padding: 2% 0;
+  text-align: center;
+}
+
+footer h2 {
+  margin: 0%;
+  font-size: 30px;
+  padding: 1% 0;
+}
+
+footer h4 {
+  margin: 0%;
+  font-size: 20px;
+  padding: 1% 0;
+}
+
+footer h5 {
+  margin: 3% 0 0 0;
+  color: #a4a4ac38;
+}
